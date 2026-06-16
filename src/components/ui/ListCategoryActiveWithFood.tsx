@@ -95,7 +95,6 @@ const ListCategoryActiveWithFood = () => {
                     data-category-name={group.name}
                     className="scroll-mt-[150px] flex flex-col"
                 >
-                    {/* Category Header */}
                     <div className="pb-4 mb-2 flex items-baseline justify-between">
                         <div>
                             <h2 className="text-xl sm:text-2xl font-black text-[#2A2420] tracking-tight flex items-center gap-2.5">
@@ -114,7 +113,6 @@ const ListCategoryActiveWithFood = () => {
                     </div>
                     <div className="h-[2px] w-full bg-gradient-to-r from-[#C8A04D] via-[#E5D6AE] to-transparent mb-6" />
 
-                    {/* Render Food Cards */}
                     <CardFood food={group.items} isLoading={false} />
                 </div>
             ))}
@@ -122,4 +120,4 @@ const ListCategoryActiveWithFood = () => {
     );
 };
 
-export default ListCategoryActiveWithFood;
+export default ListCategoryActiveWithFood;  
