@@ -12,4 +12,5 @@ COPY . .
 EXPOSE 5231
 
 # Pass the port flag directly to Next.js via pnpm
-CMD ["pnpm", "dev", "--port", "5231"]
+# CMD ["pnpm", "dev", "--port", "5231"]
+CMD ["pnpm", "dev", "--webpack"]
