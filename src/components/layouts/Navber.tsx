@@ -89,7 +89,11 @@ const Navbar = () => {
                 <div className="max-w-6xl mx-auto px-4">
                     <ul className="flex items-center gap-6 sm:gap-8 overflow-x-auto no-scrollbar py-3.5">
                         {!isLoading && categoryFood.map((cat) => {
+<<<<<<< HEAD
                             const URLFriendlyName = encodeURIComponent(cat.name);
+=======
+                            const URLFriendlyName = encodeURIComponent(cat.name.replace(/\s+/g, "-"));
+>>>>>>> da85ece325a714d6fba493dd8c06d6088981ed11
                             const targetHref = `#menu-food=${URLFriendlyName}`;
                             const isActive = currentHash === targetHref;
 

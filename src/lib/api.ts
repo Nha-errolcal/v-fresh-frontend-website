@@ -84,7 +84,11 @@ export const publicApi = createClient(false);
 export const privateApi = createClient(true);
 
 
+<<<<<<< HEAD
 // import { publicApi, privateApi } from '@/libs/apiRequest';
+=======
+// import { publicApi, privateApi } from '@/lib/apiRequest';
+>>>>>>> da85ece325a714d6fba493dd8c06d6088981ed11
 
 // // Public route — e.g. login, register, public job listings
 // const result = await publicApi.POST('/auth/login', { username, password });

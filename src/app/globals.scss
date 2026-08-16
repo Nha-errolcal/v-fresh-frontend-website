@@ -1,10 +1,19 @@
 @import url("tailwindcss");
+<<<<<<< HEAD
 @import '../styles/varible';
 // @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
     --font-en: var(--font-poppins), sans-serif;
     --font-kh: var(--font-kantumruy), Arial, sans-serif;
+=======
+@import '../styles/varible.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-en: 'Inter', sans-serif;
+    --font-kh: 'Kantumruy Pro', sans-serif;
+>>>>>>> da85ece325a714d6fba493dd8c06d6088981ed11
 }
 
 body {

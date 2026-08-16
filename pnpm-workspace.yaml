@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 allowBuilds:
   '@parcel/watcher': true
   '@swc/core': true
   sharp: true
   unrs-resolver: true
+=======
+>>>>>>> da85ece325a714d6fba493dd8c06d6088981ed11
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
