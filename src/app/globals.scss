@@ -1,0 +1,31 @@
+@import url("tailwindcss");
+@import '../styles/varible';
+// @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-en: var(--font-poppins), sans-serif;
+    --font-kh: var(--font-kantumruy), Arial, sans-serif;
+}
+
+body {
+    background-color: $color-bg-light;
+    font-family: var(--font-kh);
+}
+
+:lang(km) body,
+:lang(km) span,
+:lang(km) div,
+:lang(km) p,
+:lang(km) a,
+:lang(km) button,
+:lang(km) input,
+:lang(km) label,
+:lang(km) h1,
+:lang(km) h2,
+:lang(km) h3,
+:lang(km) h4,
+:lang(km) h5,
+:lang(km) h6,
+:lang(km) Link {
+    font-family: var(--font-kh);
+}
